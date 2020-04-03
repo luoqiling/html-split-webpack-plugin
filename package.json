@@ -1,0 +1,14 @@
+{
+  "name": "html-split-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luobin",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^7.0.0"
+  }
+}

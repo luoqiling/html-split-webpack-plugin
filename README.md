@@ -4,7 +4,7 @@
 
 `html-split-webpack-plugin`是`html-webpack-plugin`的扩展插件，能够将html文件中的指定代码片段拆分出来，生成单独的html文件。
 
-## 使用
+## 使用
 
 #### Webpack
 
@@ -23,7 +23,7 @@ module.exports = {
 #### HTML
 
 ````
-<#-- build:产出文件路径:占位符 -->
+<#-- build:产出文件路径:占位符 -->
 待拆分代码
 <#-- endbuild -->
 ````
@@ -33,7 +33,7 @@ module.exports = {
 #### 产出前
 
 ````
-# index.html
+# index.html
 
 <div>
     <#-- build:./newFile.html:xxx -->
@@ -45,13 +45,13 @@ module.exports = {
 #### 产出后
 
 ````
-# index.html
+# index.html
 
 <div>
     xxx
 </div>
 
-# newFile.html
+# newFile.html
 
 <h1>newFile</h1>
 ````
